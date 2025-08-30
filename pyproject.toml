@@ -1,0 +1,14 @@
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Page Analyzer Progect"
+dependencies = [
+    "flask",
+    "gunicorn",
+    "python-dotenv"
+]
+
+[build-system] 
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
